@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::root {
+  --golden: #a17549;
+  --white: #ffffff;
+  --blue: #223555;
+}
+.btn {
+  color: var(--golden);
+}
+.btn-gradient {
+  background: linear-gradient(to right, #a17549, #f2cc9b);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: #a17549;
+}
+.legal {
+  color: #A17549;
+  font-size: 25px;
+  font-weight: 500;
+}
+/* .text-warning {
+  color: var(--golden);
+} */
+.nav-item {
+  /* font-size: 25px; */
+}
+.consl-butt {
+  background-color: var(--golden);
+}
+
+/* banner */
+.banner {
+  background-image: url("../images/Rectangle\ 3.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banner_btn {
+  background: linear-gradient(to right, #a17549, #a17549);
+}
+/* .head1 {
+  color: white;
+}
+.para1 {
+  font-size: 20px;
+  color: white;
+} */
+
+/* promise section */
+
+.line {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45px;
+  height: 2px;
+  background-color: #a17549; /* Or any color you prefer */
+  margin-right: 10px;
+}
+.heading {
+  font-size: 25px;
+}
+.para3 {
+  padding-top: 30px;
+}
+.para2 {
+  color: #a17549;
+  font-size: 19px;
+}
+
+.lawyer-image {
+  /* width: 500px; */
+  height: 500px;
+}
+
+/* prcatice area */
+.practice-para {
+  color: #a17549;
+}
+
+.pic1 {
+  background-image: url("../images/Group\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic2 {
+  background-image: url("../images/Group\ 10.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic3 {
+  background-image: url("../images/Group\ 11.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic4 {
+  background-image: url("../images/Group\ 12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic5 {
+  background-image: url("../images/Group\ 13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic6 {
+  background-image: url("../images/Group\ 14.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic7 {
+  background-image: url("../images/Group\ 15.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic8 {
+  background-image: url("../images/Group\ 16.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic9 {
+  background-image: url("../images/Group\ 17.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic10 {
+  background-image: url("../images/Group\ 18.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+/* lawyer */
+.lawyer_text1 {
+  color: #a17549;
+}
+.card-body p {
+  color: #a17549;
+}
+.card:hover {
+  border: 2px solid #8b5e3c;
+}
+
+.clients p {
+  color: var(--blue);
+}
+.input {
+  padding: 10px 30px;
+  border: 2px solid #a17549;
+}
+.clients {
+  background-image: url("../images/Rectangle\ 34.png");
+  /* background-color: #e5d3c2; */
+  padding: 30px 0;
+  height: 80vh;
+  margin-top: 10px;
+}
+.custom-input {
+  background-color: #d9c4ab;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #8b5e3c;
+}
+
+.custom-input::placeholder {
+  color: #555;
+}
+
+.btn-warning {
+  background-color: #a4723d;
+  border: none;
+}
+
+/* clients */
+.clients {
+  background-color: #f5e7d3;
+  /* background-color: #A17549; */
+  border-radius: 12px;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+.fs-5 bold{
+  font-style: IBM Plex Serif;
+}
+.custom-input {
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 16px;
+  /* background-color: #fff; */
+  box-shadow: none;
+  /* transition: border-color 0.3s, box-shadow 0.3s; */
+}
+.btn-warning {
+  background-color: #A17549;
+  /* background-color: var(--golden); */
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.btn-warning:hover {
+  background-color: #c68b0e;
+}
+.clients p{
+  font-size: 15px;
+}
+.lawyer-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* @media (max-width: 768px) {
+  .lawyer-img {
+    margin-top: 20px;
+  }
+
+  .clients {
+    padding: 20px 10px;
+  }
+} */
+
+/* .footer {
+  background-color: var(--golden);
+  color: white;
+}
+
+.footer h5 {
+  color: #a17549;
+}
+
+.footer a:hover {
+  color: #ffc107;
+} */
+.footer{
+  background-color: #223555;;
+}
